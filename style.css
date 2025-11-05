@@ -113,4 +113,20 @@ body {
         background-color: hsl(300, 43%, 22%);
         padding: 25px;
     }
+    .profile2 {
+        border: 1px solid hsl(300, 43%, 22%);
+        width: 100%; 
+        border-radius: 10px;
+        background-color: hsl(300, 43%, 22%);
+        padding: 25px;
+        margin-top: 20px;
+    }
+    .profile3 {
+        border: 1px solid hsl(300, 43%, 22%);
+        width: 100%; 
+        border-radius: 10px;
+        background-color: hsl(300, 43%, 22%);
+        padding: 25px;
+        margin-top: 20px;
+    }
 }
