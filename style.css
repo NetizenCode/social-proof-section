@@ -139,7 +139,9 @@ body {
             display: flex;
             flex-direction: row;
             gap: 30px;
-            margin-right: 10px;
+        }
+        .review1, .review2, .review3 {
+            width: 50%;
         }
     }
     .profile-container {
