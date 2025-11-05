@@ -132,8 +132,10 @@ body {
 }
 
 @media (min-width: 768px) {
-    .social-proof-container {
-        display: flex;
+    .hero {
+       display: grid;
+       grid-template-columns: 1fr 1fr; 
+       align-items: center;
     }
     .review-container {
         .review1, .review2, .review3, .reviews {
@@ -141,17 +143,24 @@ body {
             flex-direction: row;
             gap: 30px;
         }
-        .review1, .review2, .review3 {
-            width: 60%;
-        }
+        /* .review1, .review2, .review3 {
+            width: 70%;
+        } */
     }
     .profile-container {
         display: flex;
         align-items: stretch;
         justify-content: end;
         gap: 15px;
+        width: 100%;
         .profile2, .profile3{
             margin-top: unset;
         }
+    }
+    .profile2 {
+        margin-top: 10px;
+    }
+    .profile3 {
+        margin-top: 20px;
     }
 }
