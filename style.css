@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'league spartan';
+    box-sizing: border-box;
+    background-color: hsl(300, 24%, 96%);
+    background-image: url(./images/bg-pattern-top-mobile.svg);
+    padding: 20px;
+}
+
+.social-proof-container {
+    padding: 13px;
+    margin: 30px auto;
+}
+.para-container {
+    margin-top: 50px;
+    padding: 15px;
+    h1 {
+        text-align: center;
+        color: hsl(300, 43%, 22%);
+        line-height: 25px;
+        font-weight: 700;
+    }
+    p {
+        margin-top: 20px;
+        text-align: center;
+        line-height: 20px;
+        font-size: 14px;
+        font-weight: 500;
+        color: hsl(303, 10%, 53%);
+    }
+}
+.stars {
+    width: 15px;
+}
+.reviews {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+.review-container {
+    margin-top: 10px;
+    .review1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid hsla(333, 80%, 67%, 0.1);
+        border-radius: 5px;
+        width: 100%;
+        padding: 8px;
+        background-color: hsla(303, 10%, 53%, 0.3);
+    }
+    .review2 {
+        border: 1px solid hsla(333, 80%, 67%, 0.1);
+        border-radius: 5px;
+        width: 100%;
+        padding: 8px;
+        background-color: hsla(303, 10%, 53%, 0.3);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 15px;
+    }
+    .review3 {
+        border: 1px solid hsla(333, 80%, 67%, 0.1);
+        border-radius: 5px;
+        width: 100%;
+        padding: 8px;
+        background-color: hsla(303, 10%, 53%, 0.3);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin-top: 15px;
+    }
+}
+.profile-container {
+    margin-top: 50px;
+    img {
+        border-radius: 999px;
+        width: 40px;
+    }
+    .name {
+        color: white;
+        font-weight: 600;
+    }
+    .buyer {
+        color: hsl(333, 80%, 67%);
+        font-weight: 500;
+    }
+    .avatar {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-top: 15px;
+    }
+    .verified {
+        display: grid;
+    }
+    .buyer-remark {
+        margin-top: 15px;
+        color: white;
+        font-weight: 400;
+    }
+    .profile1 {
+        border: 1px solid hsl(300, 43%, 22%);
+        width: 100%; 
+        border-radius: 10px;
+        background-color: hsl(300, 43%, 22%);
+        padding: 25px;
+    }
+}
