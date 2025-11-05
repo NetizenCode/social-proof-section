@@ -134,9 +134,18 @@ body {
     .social-proof-container {
         display: flex;
     }
+    .review-container {
+        .review1, .review2, .review3, .reviews {
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            margin-right: 10px;
+        }
+    }
     .profile-container {
         display: flex;
         align-items: stretch;
+        justify-content: end;
         gap: 15px;
         .profile2, .profile3{
             margin-top: unset;
