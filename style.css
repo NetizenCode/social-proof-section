@@ -21,8 +21,9 @@ body {
     h1 {
         text-align: center;
         color: hsl(300, 43%, 22%);
-        line-height: 25px;
+        line-height: 30px;
         font-weight: 700;
+        font-size: 40px;
     }
     p {
         margin-top: 20px;
