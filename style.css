@@ -96,7 +96,6 @@ body {
         display: flex;
         align-items: center;
         gap: 15px;
-        margin-top: 15px;
     }
     .verified {
         display: grid;
@@ -128,5 +127,19 @@ body {
         background-color: hsl(300, 43%, 22%);
         padding: 25px;
         margin-top: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .social-proof-container {
+        display: flex;
+    }
+    .profile-container {
+        display: flex;
+        align-items: stretch;
+        gap: 15px;
+        .profile2, .profile3{
+            margin-top: unset;
+        }
     }
 }
